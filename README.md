@@ -1,5 +1,5 @@
 # C++ ISP pipeline
-A simple ISP pipeline in C++. Read 14-bit Sony .ARW raw images and output jpg images.
+A simple ISP pipeline in C++. Read 14-bit Sony .ARW raw images and output 8-bit jpg images.
 
 ## Environment & How to run
 
@@ -18,3 +18,13 @@ make
 To run the progam, we need to run the compile_run.sh. The main function contain three 
 parameters, they are input file path, output file path and tuning parameters file path. 
 The parameters can be modified through the terminal or compile_run.sh.
+
+## Implementation
+
+### Bayer Domain Process
+Dead Pixel Correction[✅]
+Black Level Compensation[✅]
+Lens Shading Correction[❌]
+Anti Aliasing Filter[✅]
+Auto White Balance Gain Control[✅]
+Color Filter Array[✅]
