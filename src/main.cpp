@@ -87,10 +87,6 @@ int main(int argc, char **argv) {
   RGBImage rgb_data(raw_height, raw_width);
   YUVImage yuv_data(raw_height, raw_width);
 
-
-  outputRawImage(raw_data, "../output/0_RAW.jpg", image_height,
-                 image_width);
-
   // ISP strat
   clock_t start = clock();
 
