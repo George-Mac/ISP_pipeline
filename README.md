@@ -22,9 +22,11 @@ The parameters can be modified through the terminal or compile_run.sh.
 ## Implementation
 
 ### Bayer Domain Process
-Dead Pixel Correction[✅]
-Black Level Compensation[✅]
-Lens Shading Correction[❌]
-Anti Aliasing Filter[✅]
-Auto White Balance Gain Control[✅]
-Color Filter Array[✅]
+<ol>
+<li>Dead Pixel Correction[✅] </li>
+<li>Black Level Compensation[✅] </li>
+<li>Lens Shading Correction[❌] </li>
+<li>Anti Aliasing Filter[✅] </li>
+<li>Auto White Balance Gain Control[✅] </li>
+<li>Color Filter Array[✅]\\
+</ol>
