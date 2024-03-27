@@ -1,0 +1,14 @@
+"filename", "language", "C++", "comment", "blank", "total"
+"/Users/linanxuan/Desktop/A1/src/BayerDomain.cpp", "C++", 169, 11, 20, 200
+"/Users/linanxuan/Desktop/A1/src/BayerDomain.h", "C++", 13, 8, 11, 32
+"/Users/linanxuan/Desktop/A1/src/Config.cpp", "C++", 7, 0, 4, 11
+"/Users/linanxuan/Desktop/A1/src/Config.h", "C++", 9, 3, 6, 18
+"/Users/linanxuan/Desktop/A1/src/RGBDomain.cpp", "C++", 24, 0, 3, 27
+"/Users/linanxuan/Desktop/A1/src/RGBDomain.h", "C++", 2, 2, 2, 6
+"/Users/linanxuan/Desktop/A1/src/YUVDomain.cpp", "C++", 27, 0, 5, 32
+"/Users/linanxuan/Desktop/A1/src/YUVDomain.h", "C++", 7, 6, 7, 20
+"/Users/linanxuan/Desktop/A1/src/common.cpp", "C++", 94, 1, 23, 118
+"/Users/linanxuan/Desktop/A1/src/common.h", "C++", 73, 1, 21, 95
+"/Users/linanxuan/Desktop/A1/src/main.cpp", "C++", 103, 24, 21, 148
+"/Users/linanxuan/Desktop/A1/src/util.h", "C++", 44, 1, 4, 49
+"Total", "-", 572, 57, 127, 756
