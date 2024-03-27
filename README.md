@@ -46,3 +46,6 @@ The parameters can be modified through the terminal or compile_run.sh.
 <li>Hue Saturation Control [✅] </li>
 <li>Local Tone Mapping [❌] </li>
 </ol>
+
+### Results
+![image](https://github.com/George-Mac/ISP_pipeline/blob/main/output.jpg)
