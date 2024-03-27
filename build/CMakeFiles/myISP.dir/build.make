@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linanxuan/Desktop/myISP
+CMAKE_SOURCE_DIR = /Users/linanxuan/Desktop/DDA4310/ISP_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linanxuan/Desktop/myISP/build
+CMAKE_BINARY_DIR = /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myISP.dir/depend.make
@@ -70,130 +70,116 @@ include CMakeFiles/myISP.dir/progress.make
 include CMakeFiles/myISP.dir/flags.make
 
 CMakeFiles/myISP.dir/src/main.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/main.cpp.o: /Users/linanxuan/Desktop/myISP/src/main.cpp
+CMakeFiles/myISP.dir/src/main.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/main.cpp
 CMakeFiles/myISP.dir/src/main.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myISP.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/main.cpp.o -MF CMakeFiles/myISP.dir/src/main.cpp.o.d -o CMakeFiles/myISP.dir/src/main.cpp.o -c /Users/linanxuan/Desktop/myISP/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myISP.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/main.cpp.o -MF CMakeFiles/myISP.dir/src/main.cpp.o.d -o CMakeFiles/myISP.dir/src/main.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/main.cpp
 
 CMakeFiles/myISP.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/main.cpp > CMakeFiles/myISP.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/main.cpp > CMakeFiles/myISP.dir/src/main.cpp.i
 
 CMakeFiles/myISP.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/main.cpp -o CMakeFiles/myISP.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/main.cpp -o CMakeFiles/myISP.dir/src/main.cpp.s
 
 CMakeFiles/myISP.dir/src/BayerDomain.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/BayerDomain.cpp.o: /Users/linanxuan/Desktop/myISP/src/BayerDomain.cpp
+CMakeFiles/myISP.dir/src/BayerDomain.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.cpp
 CMakeFiles/myISP.dir/src/BayerDomain.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myISP.dir/src/BayerDomain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/BayerDomain.cpp.o -MF CMakeFiles/myISP.dir/src/BayerDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/BayerDomain.cpp.o -c /Users/linanxuan/Desktop/myISP/src/BayerDomain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myISP.dir/src/BayerDomain.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/BayerDomain.cpp.o -MF CMakeFiles/myISP.dir/src/BayerDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/BayerDomain.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.cpp
 
 CMakeFiles/myISP.dir/src/BayerDomain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/BayerDomain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/BayerDomain.cpp > CMakeFiles/myISP.dir/src/BayerDomain.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.cpp > CMakeFiles/myISP.dir/src/BayerDomain.cpp.i
 
 CMakeFiles/myISP.dir/src/BayerDomain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/BayerDomain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/BayerDomain.cpp -o CMakeFiles/myISP.dir/src/BayerDomain.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.cpp -o CMakeFiles/myISP.dir/src/BayerDomain.cpp.s
 
 CMakeFiles/myISP.dir/src/common.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/common.cpp.o: /Users/linanxuan/Desktop/myISP/src/common.cpp
+CMakeFiles/myISP.dir/src/common.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.cpp
 CMakeFiles/myISP.dir/src/common.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myISP.dir/src/common.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/common.cpp.o -MF CMakeFiles/myISP.dir/src/common.cpp.o.d -o CMakeFiles/myISP.dir/src/common.cpp.o -c /Users/linanxuan/Desktop/myISP/src/common.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myISP.dir/src/common.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/common.cpp.o -MF CMakeFiles/myISP.dir/src/common.cpp.o.d -o CMakeFiles/myISP.dir/src/common.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.cpp
 
 CMakeFiles/myISP.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/common.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/common.cpp > CMakeFiles/myISP.dir/src/common.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.cpp > CMakeFiles/myISP.dir/src/common.cpp.i
 
 CMakeFiles/myISP.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/common.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/common.cpp -o CMakeFiles/myISP.dir/src/common.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.cpp -o CMakeFiles/myISP.dir/src/common.cpp.s
 
 CMakeFiles/myISP.dir/src/Config.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/Config.cpp.o: /Users/linanxuan/Desktop/myISP/src/Config.cpp
+CMakeFiles/myISP.dir/src/Config.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/Config.cpp
 CMakeFiles/myISP.dir/src/Config.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myISP.dir/src/Config.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/Config.cpp.o -MF CMakeFiles/myISP.dir/src/Config.cpp.o.d -o CMakeFiles/myISP.dir/src/Config.cpp.o -c /Users/linanxuan/Desktop/myISP/src/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myISP.dir/src/Config.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/Config.cpp.o -MF CMakeFiles/myISP.dir/src/Config.cpp.o.d -o CMakeFiles/myISP.dir/src/Config.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/Config.cpp
 
 CMakeFiles/myISP.dir/src/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/Config.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/Config.cpp > CMakeFiles/myISP.dir/src/Config.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/Config.cpp > CMakeFiles/myISP.dir/src/Config.cpp.i
 
 CMakeFiles/myISP.dir/src/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/Config.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/Config.cpp -o CMakeFiles/myISP.dir/src/Config.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/Config.cpp -o CMakeFiles/myISP.dir/src/Config.cpp.s
 
 CMakeFiles/myISP.dir/src/RGBDomain.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/RGBDomain.cpp.o: /Users/linanxuan/Desktop/myISP/src/RGBDomain.cpp
+CMakeFiles/myISP.dir/src/RGBDomain.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/RGBDomain.cpp
 CMakeFiles/myISP.dir/src/RGBDomain.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myISP.dir/src/RGBDomain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/RGBDomain.cpp.o -MF CMakeFiles/myISP.dir/src/RGBDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/RGBDomain.cpp.o -c /Users/linanxuan/Desktop/myISP/src/RGBDomain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myISP.dir/src/RGBDomain.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/RGBDomain.cpp.o -MF CMakeFiles/myISP.dir/src/RGBDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/RGBDomain.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/RGBDomain.cpp
 
 CMakeFiles/myISP.dir/src/RGBDomain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/RGBDomain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/RGBDomain.cpp > CMakeFiles/myISP.dir/src/RGBDomain.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/RGBDomain.cpp > CMakeFiles/myISP.dir/src/RGBDomain.cpp.i
 
 CMakeFiles/myISP.dir/src/RGBDomain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/RGBDomain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/RGBDomain.cpp -o CMakeFiles/myISP.dir/src/RGBDomain.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/RGBDomain.cpp -o CMakeFiles/myISP.dir/src/RGBDomain.cpp.s
 
 CMakeFiles/myISP.dir/src/YUVDomain.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/YUVDomain.cpp.o: /Users/linanxuan/Desktop/myISP/src/YUVDomain.cpp
+CMakeFiles/myISP.dir/src/YUVDomain.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/YUVDomain.cpp
 CMakeFiles/myISP.dir/src/YUVDomain.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/myISP.dir/src/YUVDomain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/YUVDomain.cpp.o -MF CMakeFiles/myISP.dir/src/YUVDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/YUVDomain.cpp.o -c /Users/linanxuan/Desktop/myISP/src/YUVDomain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/myISP.dir/src/YUVDomain.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/YUVDomain.cpp.o -MF CMakeFiles/myISP.dir/src/YUVDomain.cpp.o.d -o CMakeFiles/myISP.dir/src/YUVDomain.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/YUVDomain.cpp
 
 CMakeFiles/myISP.dir/src/YUVDomain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/YUVDomain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/YUVDomain.cpp > CMakeFiles/myISP.dir/src/YUVDomain.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/YUVDomain.cpp > CMakeFiles/myISP.dir/src/YUVDomain.cpp.i
 
 CMakeFiles/myISP.dir/src/YUVDomain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/YUVDomain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/YUVDomain.cpp -o CMakeFiles/myISP.dir/src/YUVDomain.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/YUVDomain.cpp -o CMakeFiles/myISP.dir/src/YUVDomain.cpp.s
 
 CMakeFiles/myISP.dir/src/output.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/output.cpp.o: /Users/linanxuan/Desktop/myISP/src/output.cpp
+CMakeFiles/myISP.dir/src/output.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/output.cpp
 CMakeFiles/myISP.dir/src/output.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/myISP.dir/src/output.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/output.cpp.o -MF CMakeFiles/myISP.dir/src/output.cpp.o.d -o CMakeFiles/myISP.dir/src/output.cpp.o -c /Users/linanxuan/Desktop/myISP/src/output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/myISP.dir/src/output.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/output.cpp.o -MF CMakeFiles/myISP.dir/src/output.cpp.o.d -o CMakeFiles/myISP.dir/src/output.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/output.cpp
 
 CMakeFiles/myISP.dir/src/output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/output.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/output.cpp > CMakeFiles/myISP.dir/src/output.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/output.cpp > CMakeFiles/myISP.dir/src/output.cpp.i
 
 CMakeFiles/myISP.dir/src/output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/output.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/output.cpp -o CMakeFiles/myISP.dir/src/output.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/output.cpp -o CMakeFiles/myISP.dir/src/output.cpp.s
 
 CMakeFiles/myISP.dir/src/util.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/util.cpp.o: /Users/linanxuan/Desktop/myISP/src/util.cpp
+CMakeFiles/myISP.dir/src/util.cpp.o: /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.cpp
 CMakeFiles/myISP.dir/src/util.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/myISP.dir/src/util.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/util.cpp.o -MF CMakeFiles/myISP.dir/src/util.cpp.o.d -o CMakeFiles/myISP.dir/src/util.cpp.o -c /Users/linanxuan/Desktop/myISP/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/myISP.dir/src/util.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/util.cpp.o -MF CMakeFiles/myISP.dir/src/util.cpp.o.d -o CMakeFiles/myISP.dir/src/util.cpp.o -c /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.cpp
 
 CMakeFiles/myISP.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/util.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/util.cpp > CMakeFiles/myISP.dir/src/util.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.cpp > CMakeFiles/myISP.dir/src/util.cpp.i
 
 CMakeFiles/myISP.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/util.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/util.cpp -o CMakeFiles/myISP.dir/src/util.cpp.s
-
-CMakeFiles/myISP.dir/src/ToneMapping.cpp.o: CMakeFiles/myISP.dir/flags.make
-CMakeFiles/myISP.dir/src/ToneMapping.cpp.o: /Users/linanxuan/Desktop/myISP/src/ToneMapping.cpp
-CMakeFiles/myISP.dir/src/ToneMapping.cpp.o: CMakeFiles/myISP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/myISP.dir/src/ToneMapping.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/myISP.dir/src/ToneMapping.cpp.o -MF CMakeFiles/myISP.dir/src/ToneMapping.cpp.o.d -o CMakeFiles/myISP.dir/src/ToneMapping.cpp.o -c /Users/linanxuan/Desktop/myISP/src/ToneMapping.cpp
-
-CMakeFiles/myISP.dir/src/ToneMapping.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/myISP.dir/src/ToneMapping.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/linanxuan/Desktop/myISP/src/ToneMapping.cpp > CMakeFiles/myISP.dir/src/ToneMapping.cpp.i
-
-CMakeFiles/myISP.dir/src/ToneMapping.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/myISP.dir/src/ToneMapping.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/myISP/src/ToneMapping.cpp -o CMakeFiles/myISP.dir/src/ToneMapping.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.cpp -o CMakeFiles/myISP.dir/src/util.cpp.s
 
 # Object files for target myISP
 myISP_OBJECTS = \
@@ -204,8 +190,7 @@ myISP_OBJECTS = \
 "CMakeFiles/myISP.dir/src/RGBDomain.cpp.o" \
 "CMakeFiles/myISP.dir/src/YUVDomain.cpp.o" \
 "CMakeFiles/myISP.dir/src/output.cpp.o" \
-"CMakeFiles/myISP.dir/src/util.cpp.o" \
-"CMakeFiles/myISP.dir/src/ToneMapping.cpp.o"
+"CMakeFiles/myISP.dir/src/util.cpp.o"
 
 # External object files for target myISP
 myISP_EXTERNAL_OBJECTS =
@@ -218,7 +203,6 @@ myISP: CMakeFiles/myISP.dir/src/RGBDomain.cpp.o
 myISP: CMakeFiles/myISP.dir/src/YUVDomain.cpp.o
 myISP: CMakeFiles/myISP.dir/src/output.cpp.o
 myISP: CMakeFiles/myISP.dir/src/util.cpp.o
-myISP: CMakeFiles/myISP.dir/src/ToneMapping.cpp.o
 myISP: CMakeFiles/myISP.dir/build.make
 myISP: /usr/local/lib/libopencv_gapi.4.9.0.dylib
 myISP: /usr/local/lib/libopencv_highgui.4.9.0.dylib
@@ -236,7 +220,7 @@ myISP: /usr/local/lib/libopencv_flann.4.9.0.dylib
 myISP: /usr/local/lib/libopencv_imgproc.4.9.0.dylib
 myISP: /usr/local/lib/libopencv_core.4.9.0.dylib
 myISP: CMakeFiles/myISP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/linanxuan/Desktop/myISP/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable myISP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable myISP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myISP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -248,6 +232,6 @@ CMakeFiles/myISP.dir/clean:
 .PHONY : CMakeFiles/myISP.dir/clean
 
 CMakeFiles/myISP.dir/depend:
-	cd /Users/linanxuan/Desktop/myISP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linanxuan/Desktop/myISP /Users/linanxuan/Desktop/myISP /Users/linanxuan/Desktop/myISP/build /Users/linanxuan/Desktop/myISP/build /Users/linanxuan/Desktop/myISP/build/CMakeFiles/myISP.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/linanxuan/Desktop/DDA4310/ISP_pipeline /Users/linanxuan/Desktop/DDA4310/ISP_pipeline /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles/myISP.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/myISP.dir/depend
 

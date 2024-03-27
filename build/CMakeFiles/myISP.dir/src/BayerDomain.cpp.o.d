@@ -1,8 +1,8 @@
 CMakeFiles/myISP.dir/src/BayerDomain.cpp.o: \
-  /Users/linanxuan/Desktop/myISP/src/BayerDomain.cpp \
-  /Users/linanxuan/Desktop/myISP/src/BayerDomain.h \
-  /Users/linanxuan/Desktop/myISP/src/common.h \
-  /Users/linanxuan/Desktop/myISP/src/util.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.cpp \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.h \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \

@@ -13,7 +13,6 @@ set(SOURCE_TARGET
     src/YUVDomain.cpp
     src/output.cpp
     src/util.cpp
-    src/ToneMapping.cpp
     )
 
 set(HEADERS_TARGET
@@ -24,7 +23,6 @@ set(HEADERS_TARGET
    src/YUVDomain.h
    src/util.h
    src/output.h
-   src/ToneMapping.h
     )
 
 

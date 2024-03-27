@@ -1,8 +1,8 @@
 CMakeFiles/myISP.dir/src/main.cpp.o: \
-  /Users/linanxuan/Desktop/myISP/src/main.cpp \
-  /Users/linanxuan/Desktop/myISP/src/BayerDomain.h \
-  /Users/linanxuan/Desktop/myISP/src/common.h \
-  /Users/linanxuan/Desktop/myISP/src/util.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/main.cpp \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/BayerDomain.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/common.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/util.h \
   /usr/local/include/opencv4/opencv2/opencv.hpp \
   /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/local/include/opencv4/opencv2/core.hpp \
@@ -916,18 +916,18 @@ CMakeFiles/myISP.dir/src/main.cpp.o: \
   /usr/local/include/opencv4/opencv2/video.hpp \
   /usr/local/include/opencv4/opencv2/video/tracking.hpp \
   /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
-  /Users/linanxuan/Desktop/myISP/src/Config.h \
-  /Users/linanxuan/Desktop/myISP/src/RGBDomain.h \
-  /Users/linanxuan/Desktop/myISP/src/YUVDomain.h \
-  /Users/linanxuan/Desktop/myISP/src/output.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/Config.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/RGBDomain.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/YUVDomain.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/src/output.h \
   /usr/local/include/opencv4/opencv2/imgproc/types_c.h \
   /usr/local/include/opencv4/opencv2/core/core_c.h \
   /usr/local/include/opencv4/opencv2/core/types_c.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/memory.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_datastream.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_const.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_types.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_datastream.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_const.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_timeval64.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_select.h \
@@ -935,7 +935,7 @@ CMakeFiles/myISP.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/inttypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/xlocale/_inttypes.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_version.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_version.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
@@ -954,5 +954,5 @@ CMakeFiles/myISP.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_internal.h \
-  /Users/linanxuan/Desktop/myISP/lib/Libraw/libraw/libraw_alloc.h
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_internal.h \
+  /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/lib/Libraw/libraw/libraw_alloc.h

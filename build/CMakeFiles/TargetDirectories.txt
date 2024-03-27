@@ -1,3 +1,3 @@
-/Users/linanxuan/Desktop/myISP/build/CMakeFiles/myISP.dir
-/Users/linanxuan/Desktop/myISP/build/CMakeFiles/edit_cache.dir
-/Users/linanxuan/Desktop/myISP/build/CMakeFiles/rebuild_cache.dir
+/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles/myISP.dir
+/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles/edit_cache.dir
+/Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles/rebuild_cache.dir

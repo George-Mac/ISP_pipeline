@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/myISP.dir/src/Config.cpp.o.d"
   "CMakeFiles/myISP.dir/src/RGBDomain.cpp.o"
   "CMakeFiles/myISP.dir/src/RGBDomain.cpp.o.d"
-  "CMakeFiles/myISP.dir/src/ToneMapping.cpp.o"
-  "CMakeFiles/myISP.dir/src/ToneMapping.cpp.o.d"
   "CMakeFiles/myISP.dir/src/YUVDomain.cpp.o"
   "CMakeFiles/myISP.dir/src/YUVDomain.cpp.o.d"
   "CMakeFiles/myISP.dir/src/common.cpp.o"

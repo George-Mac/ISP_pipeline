@@ -57,10 +57,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/linanxuan/Desktop/myISP
+CMAKE_SOURCE_DIR = /Users/linanxuan/Desktop/DDA4310/ISP_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/linanxuan/Desktop/myISP/build
+CMAKE_BINARY_DIR = /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linanxuan/Desktop/myISP/build/CMakeFiles /Users/linanxuan/Desktop/myISP/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linanxuan/Desktop/myISP/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/linanxuan/Desktop/DDA4310/ISP_pipeline/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -200,30 +200,6 @@ src/RGBDomain.s: src/RGBDomain.cpp.s
 src/RGBDomain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myISP.dir/build.make CMakeFiles/myISP.dir/src/RGBDomain.cpp.s
 .PHONY : src/RGBDomain.cpp.s
-
-src/ToneMapping.o: src/ToneMapping.cpp.o
-.PHONY : src/ToneMapping.o
-
-# target to build an object file
-src/ToneMapping.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myISP.dir/build.make CMakeFiles/myISP.dir/src/ToneMapping.cpp.o
-.PHONY : src/ToneMapping.cpp.o
-
-src/ToneMapping.i: src/ToneMapping.cpp.i
-.PHONY : src/ToneMapping.i
-
-# target to preprocess a source file
-src/ToneMapping.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myISP.dir/build.make CMakeFiles/myISP.dir/src/ToneMapping.cpp.i
-.PHONY : src/ToneMapping.cpp.i
-
-src/ToneMapping.s: src/ToneMapping.cpp.s
-.PHONY : src/ToneMapping.s
-
-# target to generate assembly for a file
-src/ToneMapping.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/myISP.dir/build.make CMakeFiles/myISP.dir/src/ToneMapping.cpp.s
-.PHONY : src/ToneMapping.cpp.s
 
 src/YUVDomain.o: src/YUVDomain.cpp.o
 .PHONY : src/YUVDomain.o
@@ -363,9 +339,6 @@ help:
 	@echo "... src/RGBDomain.o"
 	@echo "... src/RGBDomain.i"
 	@echo "... src/RGBDomain.s"
-	@echo "... src/ToneMapping.o"
-	@echo "... src/ToneMapping.i"
-	@echo "... src/ToneMapping.s"
 	@echo "... src/YUVDomain.o"
 	@echo "... src/YUVDomain.i"
 	@echo "... src/YUVDomain.s"
